@@ -1,0 +1,88 @@
+{
+ "file": "hazard.json",
+ "hazards": [
+  {
+   "who": "L1",
+   "decel": 7.5,
+   "dur": 4.4,
+   "t0": 0,
+   "trig": null,
+   "type": "brake"
+  }
+ ],
+ "space": {
+  "h0_decel": [
+   5.0,
+   7.5
+  ],
+  "h0_dur": [
+   3.4,
+   5.4
+  ],
+  "h0_t0": [
+   0.0,
+   2.0
+  ]
+ },
+ "world": "town",
+ "exposure": 0.05,
+ "why": "Gia dinh khao sat, KHONG phai tan suat do tu giao thong thuc. Canh tu dung: L1 phanh gap 7.5 m/s^2 trong 4.4 s tu t=0; quet decel 5.0-7.5 de thu phanh manh den gan gioi han duong kho (mu*g=7.848), dur 3.4-5.4 la +/-1 s quanh canh goc, t0 0-2 s de thu do nhay thoi diem khoi phat. Mau vuot gioi han ma sat (dac biet duong uot mu=0.5) bi loai; ket qua co dieu kien tren cac mau kha thi duoc giu. Chua co du lieu ve tan suat: exposure=0.05 (mot lan moi 20 chuyen) chi la moc minh hoa cho nhan dinh thinh thoang, khong the suy ra tu anh hay tu ngu thinh thoang. Bao cao phan tich them exposure=0.01 va 0.10, khong coi bat ky moc nao la uoc luong thuc te. Can video/dashcam theo chuyen, dinh nghia nguong phanh gap va tong so chuyen quan sat de hieu chuan.",
+ "exact": {
+  "planner": []
+ },
+ "infeasible": 284,
+ "accepted": 0.8106666666666666,
+ "conditional_on": "your town's traffic",
+ "baseline": {
+  "n": 1216,
+  "crashes": 0,
+  "avoidable": 0,
+  "unavoidable": 0,
+  "unattributed": 0,
+  "low_speed": 0,
+  "avoidable_foreknown": 0,
+  "overlap_at_start": 0,
+  "by_hazard": {},
+  "examples": [],
+  "p": 0.0,
+  "lo": 0.0,
+  "hi": 0.0031492613467191143,
+  "per_trip": 0.0,
+  "per_trip_hi": 0.00015746306733595573
+ },
+ "chosen": {
+  "n": 1216,
+  "crashes": 0,
+  "avoidable": 0,
+  "unavoidable": 0,
+  "unattributed": 0,
+  "low_speed": 0,
+  "avoidable_foreknown": 0,
+  "overlap_at_start": 0,
+  "by_hazard": {},
+  "examples": [],
+  "p": 0.0,
+  "lo": 0.0,
+  "hi": 0.0031492613467191143,
+  "per_trip": 0.0,
+  "per_trip_hi": 0.00015746306733595573
+ },
+ "_run": {
+  "mssv": "602954",
+  "town": "C",
+  "quick": false,
+  "step": "mine",
+  "salted": false,
+  "budgets": {
+   "replay_n": 400,
+   "mc_n": 3000,
+   "iters": 8,
+   "per_iter": 300,
+   "final_n": 600,
+   "seeds": 3,
+   "fix_n": 400,
+   "progress_n": 256,
+   "mine_n": 1500
+  }
+ }
+}

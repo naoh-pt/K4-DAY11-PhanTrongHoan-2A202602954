@@ -1,5 +1,11 @@
 __pycache__/
 .pytest_cache/
 .venv/
-evidence/
+evidence/*
+!evidence/*.json
+!evidence/shots/
+evidence/shots/*
+!evidence/shots/bus_bypass.png
+!evidence/shots/crosswalk_block.png
+!evidence/shots/hazard.png
 .DS_Store
